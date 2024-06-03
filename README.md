@@ -32,3 +32,4 @@ variety of languages and technologies.
 
 ### Postgres
 
+- [Initialize a Postgres container from an SQL script](postgres/initialize_postgres_container_from_sql_script.md)
