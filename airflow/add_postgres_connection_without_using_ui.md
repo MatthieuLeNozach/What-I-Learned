@@ -37,7 +37,7 @@ AIRFLOW_CONN_VELIB_POSTGRES=postgresql+psycopg2://velib_user:velib_password@user
 
 ## **Referencing it in the DAGs**
 
-At the beginning of the file, import the PostgresHook and instantiate the connection:
+At the beginning of the file, import the PostgresHook and instantiate the hook:
 
 ```py
 from airflow.hooks.postgres_hook import PostgresHook
