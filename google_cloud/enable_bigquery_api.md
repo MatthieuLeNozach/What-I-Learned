@@ -25,9 +25,9 @@ To enable the BigQuery API in the Google Cloud Console:
 
 
 ## **Using BigQuery from Python**
-
+Install dependencies
 ```python
-pip install google-cloud-bigquery
+pip install google-cloud-bigquery db-dtypes
 ```
 Export the path to the `json` file:
 ```bash
